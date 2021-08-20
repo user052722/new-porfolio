@@ -35,7 +35,7 @@ nav ul li a {
   padding: 30px;
 }
 body {
-  background: url("..image/cover.jpg") no-repeat center center/ cover; /* body cover */
+  background: url("image/cover.jpg") no-repeat center center/ cover; /* body cover */
   height: 100vh;
 }
 .text-hello {
