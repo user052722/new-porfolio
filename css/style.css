@@ -5,6 +5,32 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+.container {
+  margin: auto;
+  max-width: 1200px;
+  overflow: auto;
+  padding: 0 15px;
+}
+.separator {
+  width: 100%;
+}
+.separator2 {
+  width: 100%;
+  padding-top: 100px;
+}
+.separator3 {
+  width: 100%;
+  padding-top: 100px;
+}
+p,
+h1,
+h2 {
+  color: #fff;
+}
+.section1 {
+  background: url("../image/cover.jpg") no-repeat center center/ cover; /* body cover */
+  height: 100vh;
+}
 nav {
   background-color: #000; /* nav color */
   width: 100%;
@@ -34,10 +60,6 @@ nav ul li a {
   color: #fff;
   padding: 30px;
 }
-body {
-  background: url("../image/cover.jpg") no-repeat center center/ cover; /* body cover */
-  height: 100vh;
-}
 .text-hello {
   color: #fff;
   font-size: 70px;
@@ -57,14 +79,14 @@ body {
   margin-left: 40px;
   padding-top: 0px;
 }
-h2 {
+.charles {
   position: relative;
   font-size: 70px;
   color: #000; /*text bg color (transparency)*/
   -webkit-text-stroke: 0.1vw #292929; /*text border */
   text-transform: uppercase;
 }
-h2::before {
+.charles::before {
   content: attr(data-text);
   position: absolute;
   top: 0;
@@ -106,4 +128,49 @@ h2::before {
 .button2 {
   background-color: #000; /* message me */
   border: solid 1px #fff;
+}
+.section2 {
+  background-color: #07070f; /* body cover */
+  height: 600px;
+}
+.container-flex1 {
+  display: flex;
+}
+.container-flex1 div {
+  /* border: solid 1px #fff; */
+  padding: 10px;
+  margin-left: 10px;
+  text-align: center;
+  background: #191926;
+}
+.container-flex1 i {
+  font-size: 40px;
+  color: #28b16a;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.container-flex1 h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.container-flex1 p {
+  color: #9595ad;
+  text-align: center;
+  margin-bottom: 30px;
+  margin: 0px 20px;
+}
+.ms-heading {
+  text-align: center;
+}
+.myservice {
+  text-align: center;
+  margin: 30px 0px;
+}
+.section3 {
+  background-color: #191926; /* body cover */
+  height: 600px;
+}
+.section4 {
+  background-color: #07070f; /* body cover */
+  height: 300px;
 }
